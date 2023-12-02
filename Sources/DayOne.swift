@@ -9,7 +9,7 @@ import Foundation
 
 struct DayOne {
     
-    func calculatePartOne() -> Int {
+    func calculateSumOfDigits() -> Int {
         let lines = input.components(separatedBy: .newlines)
         let numbers = lines.compactMap({ line -> Int? in
             let ranges = line.findSingleNumberRanges()
@@ -26,7 +26,7 @@ struct DayOne {
         return numbers.reduce(0, { $0 + $1 })
     }
     
-    func calculatePartTwo() -> Int {
+    func calculateSumOfDigitsIncludingWords() -> Int {
         let lines = input.components(separatedBy: .newlines)
         let numbers = lines.compactMap({ line -> Int? in
             let ranges = line.findSingleNumberRanges(allowWordRepresentation: true)
