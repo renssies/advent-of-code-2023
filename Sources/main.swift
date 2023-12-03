@@ -10,3 +10,8 @@ print("Day Two")
 let dayTwo = DayTwo()
 print("Sum of possible game ID's: \(dayTwo.calculateSumOfIDs())")
 print("Sum of game powers: \(dayTwo.calculateSumOfGamePowers())")
+
+print("Day Three")
+let dayThree = DayThree()
+print("Sum of valid part numbers: \(dayThree.calculateSumOfPartNumbers())")
+print("Sum of gear ratio: \(dayThree.calculateSumOfGears())")
