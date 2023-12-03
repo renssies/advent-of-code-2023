@@ -72,7 +72,7 @@ class DayThree {
         var numbersPerGear = [Gear:[Int]]()
         for lineIndex in 0..<self.lines.count {
             let line = self.lines[lineIndex]
-            let ranges = line.ranges(of: One("*"))
+            let ranges = line.ranges(of: One(gearSymbol))
             for range in ranges {
                 numbersPerGear[Gear(index: range.lowerBound, lineIndex: lineIndex)] = []
             }
