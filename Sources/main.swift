@@ -15,3 +15,8 @@ print("Day Three")
 let dayThree = DayThree()
 print("Sum of valid part numbers: \(dayThree.calculateSumOfPartNumbers())")
 print("Sum of gear ratio: \(dayThree.calculateSumOfGears())")
+
+print("Day Four")
+let dayFour = DayFour()
+print("Sum of points: \(dayFour.calculateSumOfPoints())")
+print("Number of cards total :\(dayFour.calculateNumberOfCardsTotal())")
