@@ -20,3 +20,9 @@ print("Day Four")
 let dayFour = DayFour()
 print("Sum of points: \(dayFour.calculateSumOfPoints())")
 print("Number of cards total :\(dayFour.calculateNumberOfCardsTotal())")
+
+print("Day Five")
+let dayFive = DayFive()
+print("Lowest location: \(dayFive.calculateLowestLocationNumber())")
+// Warning: The following code is very unoptimised and takes a while to calculate.
+//print("Lowest location using seed ranges: \(dayFive.calculateLowestLocationNumberUsingSeedRanges())")

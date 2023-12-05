@@ -19,6 +19,7 @@ let package = Package(
 let swiftSettings: [SwiftSetting] = [
     // -enable-bare-slash-regex
     .enableUpcomingFeature("BareSlashRegexLiterals"),
+    .unsafeFlags(["-O"])
 ]
 
 for target in package.targets {
